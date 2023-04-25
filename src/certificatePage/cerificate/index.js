@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./styles.module.scss";
-import Format from "./certificate.png";
+import Format from "./certificate2.png";
 
 const Certificate = () => {
 
