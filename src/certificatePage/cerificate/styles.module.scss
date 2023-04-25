@@ -1,0 +1,108 @@
+.certificate_container{
+    width: 796px;
+    height: 1126px;
+    box-sizing: border-box;
+    position: relative;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .text_container{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        top: 423px;
+        display: flex;
+        justify-content: center;
+
+        .text_content{
+            width: 85%;
+            
+            .first_line, .second_line, .line_four{
+                margin: 0;
+                font-size: 15px;
+                line-height: 25px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            .marks{
+                width: 100%;
+                margin-bottom: 10px;
+
+                .marks_heading{
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    margin: 0;
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+
+                .marks_list{
+                    width: 100%;
+
+                    .li{
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 0px 15px;
+
+                        p{
+                            margin: 0;
+                            font-size: 15px;
+                            font-weight: 600;
+
+                            b{
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .signature_section{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+
+
+                .stamp, .state_official{
+                    width: 49%;
+                    height: auto;
+                }
+
+                .stamp{
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+
+                    p{
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+
+                .state_official{
+                    // padding-top: 50px;   
+                    .official_name{
+                        p{
+                            font-size: 20px;
+                            text-align: center;
+                            font-weight: 700;
+                        }
+                    }
+                    .signature_date{
+                        padding-left: 60px;
+                        margin-top:20px;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            
+        }
+    }
+}

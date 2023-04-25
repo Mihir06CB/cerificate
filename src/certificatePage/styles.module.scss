@@ -1,0 +1,30 @@
+.certificate_page{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 0, 0.233);
+    padding: 20px;
+
+    .button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        button{
+            color: white;
+            background-color: teal;
+            border: none;
+            font-size: 20px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .print_section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
